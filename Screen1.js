@@ -6,7 +6,7 @@ export default class Screen1 extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Screen 1 😎</Text>
+        <Text style={styles.welcome}>Welcome to Screen 1 😎</Text>
         <Button title="Go to screen 2" onPress={() => this.props.navigation.navigate('Screen2')} />
       </View>
     );
